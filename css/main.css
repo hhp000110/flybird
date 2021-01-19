@@ -1,0 +1,60 @@
+* {
+    color: white;
+}
+body{
+    background-color: black;
+}
+h2 {
+    text-align: center;
+}
+#gameBack {
+    width: 900px;
+    height: 500px;
+    border:3px solid white;
+    margin-left: 10px;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+}
+#gameControl {
+    vertical-align: top;
+    display: inline-block;
+    border:3px solid white;
+    margin-left: 50px;
+    width: 300px;
+    height: 500px;
+}
+#gameControl div {
+    text-align: center;
+    height: 40px;
+    margin: 10px;
+}
+#gameControl input {
+    height: 100%;
+}
+#gameStart{
+    background-color: red;
+}
+#gameEnd{
+    background-color: salmon;
+    color: black;
+}
+#bird {
+    position: absolute;
+    left: 300px;
+    content: url(../img/bird.jpg);
+}
+.obstacle-top {
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background-color: white;
+}
+.obstacle-bottom {
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 5px;
+    top: 150px;
+}
